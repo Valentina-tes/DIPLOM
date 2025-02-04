@@ -17,4 +17,4 @@ WHEN "Orders"."finished" = true THEN 2
 WHEN "Orders"."inDelivery" = true THEN 1
 ELSE 0
 END AS Status
-FROM "Orders"
+FROM "Orders";
